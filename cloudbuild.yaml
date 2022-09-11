@@ -1,5 +1,4 @@
-
-- id: 'tf plan'
+  id: 'tf plan'
   name: 'hashicorp/terraform:1.0.0'
   entrypoint: 'sh'
   args:
@@ -35,4 +34,4 @@
 
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
-timeout: "1600s"
+  timeout: "1600s"
