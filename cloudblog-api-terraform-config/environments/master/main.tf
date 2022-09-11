@@ -9,7 +9,6 @@ terraform {
 
 
 provider "google" {
-  credentials = file("D:/Credentials/cloudblog-api-3d73316657d4.json")
 
   project = var.project_id
   region  = "us-central1"
