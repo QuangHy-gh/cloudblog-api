@@ -5,8 +5,8 @@ steps:
   args:
   - '-c'
   - |
-      echo "branch $BRANCH_NAME"
-      if [ ! -z "$BRANCH_NAME" -a -d "terraform/environments/$BRANCH_NAME/" ]; then
+      echo "branch QuangHy-gh-patch-1"
+      if [ ! -z "QuangHy-gh-patch-1" -a -d "terraform/environments/QuangHy-gh-patch-1/" ]; then
         cd terraform/environments/$BRANCH_NAME
         echo "run init"
         terraform init
